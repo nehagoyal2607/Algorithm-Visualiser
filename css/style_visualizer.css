@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #222831;
+  color: white;
+  display: flex;
+  place-content: center;
+  padding: 0% 5%;
+}
+
+nav .header_right .nav-heading {
+  display: flex;
+  place-content: center;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .header_right .algos {
+  display: flex;
+  margin: 2%;
+  place-content: center;
+  padding: 1% 2%;
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  outline: none;
+  padding: 2% 5%;
+  font-size: x-large;
+  transition:all 1s;
+}
+
+nav .header_right .algos button:hover {
+  background-color: rgb(80, 80, 241);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+section {
+  /* -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%; */
+      align-items: center;
+}
+
+#firstsec{
+  display: flex;
+}
+
+#array_container {
+  margin: 0%;
+  place-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* display: flex; */
+  width: 70%;
+  height: 60vh;
+}
+
+section #inputs{
+  place-content: center;
+}
+
+.array-inputs {
+  display: flex;
+  color: #222831;
+  text-align: center;
+  padding: 0% 0%;
+  margin: 0% 0%;
+  place-content: center;
+}
+
+#array-inputs1{
+  color: #222831;
+  padding: 0%;
+  margin: 0% 10%;
+}
+
+.array-inputs #a_size {
+  margin: 2%;
+  padding: 5% 0%;
+}
+
+.array-inputs #a_speed {
+  margin: 2%;
+  padding: 5% 0%;
+}
+
+#a_generate {
+  /* background-color: transparent; */
+  border: 2px #222831 solid;
+  border-radius: 10px;
+  outline: none;
+  padding: 6% 6% 6% 6%;
+  transition:all 1s;
+}
+
+#a_generate:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.hide {
+  display: none;
+}
+#div1{
+  margin: 0% 5%;
+}
+#div2{
+  margin: 0% 5%;
+}
+#div3{
+  padding: 3% 3%;
+  place-content: center;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="new.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./SortingVisualizer.html">Home</a></li>
+                <li><a href="./BinaryTreeVisualiser/binary-search-tree.html">Tree Traversals</a></li>
+                <li><a href="./Dijkstra-solver/index.html">Dijkstra</a></li>
+                <li><a href="./graph-visualization/index.html">Graph Traversals</a></li>
+                <li><a href="./visualization/BFS.html">BFS</a></li>
+                <li><a href="./visualization/DFS.html">DFS</a></li>
+                <li><a href="./visualization/Prim.html">Prim's</a></li>
+                <li><a href="./visualization/Kruskal.html">Kruskal</a></li>
+                <li><a href="./Visualizer.html">Sorting</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Algorithm Visualizer</h1>
+        <p>An application where you can comprehend every operation taking place in any sorting algorithm.</p>
+    </section>
+    <div class="container">
+        <div class="container" id="id1">
+            <div class="boxes" id="first">
+                <a href="Visualizer.html" target="_blank"><h2>Visualizer</h2></a>
+                <p>Use this application to better understand how every sorting algorithm works</p>
+            </div>
+        </div>
+        <div class="container" id="id2">
+            <div class="boxes" id="second">
+                <a href="#Algorithms"><h2>Algorithms Explained</h2></a>
+                <p>Brief explanation of the sorting algorithms shown in the Visualizer</p>
+            </div>
+        </div>
+    </div>
+    <section id="Algorithms">
+        <h1 id='algo-heading'>Algorithms</h1>
+        <div class="AlgoCont">
+            <div class="algos">
+                <h2>Bubble Sort</h2>
+                <p>
+                    It is the simplest sorting algorithm that works by repeatedly swapping the adjacent
+                    elements if they are in wrong order.
+                </p>
+                <a href="https://www.geeksforgeeks.org/bubble-sort/">Read More</a>
+            </div>
+            <div class="algos">
+                <h2>Selection Sort</h2>
+                <p>
+                    It sorts an array by repeatedly finding the minimum element (considering ascending order) from
+                    unsorted part and putting it at the beginning.
+                </p>
+                <a href="https://www.geeksforgeeks.org/selection-sort/">Read More</a>
+            </div>
+            <div class="algos">
+                <h2>Insertion Sort</h2>
+                <p>
+                    The array is split into a sorted and an unsorted part. Values from the
+                    unsorted part are picked and placed at the correct position in the sorted part.
+                </p>
+                <a href="https://www.geeksforgeeks.org/insertion-sort/">Read More</a>
+            </div>
+        </div>
+        <div class="AlgoCont">
+            <div class="algos">
+                <h2>Merge Sort</h2>
+                <p>
+                    It is a Divide and Conquer algorithm. It divides the input array into two halves, calls
+                    itself for the two halves, and then merges the two sorted halves.
+                </p>
+                <a href="https://www.geeksforgeeks.org/merge-sort/">Read More</a>
+            </div>
+            <div class="algos">
+                <h2>Quick Sort</h2>
+                <p>
+                    It is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given
+                    array around the picked pivot.
+                </p>
+                <a href="https://www.geeksforgeeks.org/quick-sort/">Read More</a>
+            </div>
+            <div class="algos">
+                <h2>Heap Sort</h2>
+                <p>
+                    It is a comparison based sorting technique based on Binary Heap data structure. We first find the
+                    maximum element and place the maximum element at the end and repeat for the remaining elements.
+                </p>
+                <a href="https://www.geeksforgeeks.org/heap-sort/">Read More</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

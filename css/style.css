@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background: url('https://i.redd.it/fdjabmvgfn251.png'); */
+    /* background: url('https://wallpaperaccess.com/full/2906297.jpg'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: ''Helvetica Neue','BlinkMacSystemFont', 'Open Sans','TISA','sans-serif','Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell';
+}
+
+html{scroll-behavior:smooth}
+
+/* navigation section */
+.navigation{
+    margin: 0%;
+    padding: 0%;
+    background-color:transparent;
+    position:sticky;
+    top: 0%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+.navigation ul{
+    margin: 0%;
+    padding: 0%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation li{
+    display: inline-block;
+    /* float: right; */
+    list-style: none;
+    margin: 2% 3%;
+    
+}
+.navigation li a{
+    display: flex;
+    margin-left: 0%;
+    color: white;
+    
+}
+.navigation li a:hover, a:active{
+    text-decoration: underline;
+}
+a{
+    /* width: 120%; */
+    cursor: pointer;
+    text-decoration: none;
+}
+.search{
+    float: right;
+    padding: 17px 80px;
+    color: white;
+}
+.navigation input{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* home section */
+#home{
+    font-family:  Cambria,serif,Georgia, Times, comic sans ms, 'Times New Roman',  Cochin;
+    color: white;
+    top: 0%;
+    left: 0%;
+    height: 40%;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('https://i.redd.it/fdjabmvgfn251.png') center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+#home p{
+    font-size: 1.1rem;
+    padding: 2%;
+    margin: 3%;
+    text-align: center;
+}
+#home h1{
+    padding: 2%;
+    margin: 4%;
+    font-size: 3.8rem;
+    text-align: center;
+}
+.container {
+    display: flex;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 10px;
+    flex-wrap: wrap; 
+    text-align: justify;
+    width: 40%;
+    /* height: 30%; */
+    background-color: white;
+    box-shadow: 8px 8px 30px -4px black;
+    color: black;
+    z-index: 1;
+    /* /align-items: center; */
+    justify-content: center; 
+    /* animation-name: grow;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    animation-timing-function: ease-out; */
+    transition:all 1s;
+    font-family: comic sans ms, Georgia, Times, 'Times New Roman', serif, Cambria, Cochin;
+
+}
+.boxes a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxes a:hover{
+    text-decoration: underline;
+}
+
+.boxes:hover{
+    transform: scale(1.1);
+}
+/* @keyframes grow{
+    from{
+        width: 10%;
+    }
+    to{
+        width: 20%;
+    }
+} */
+#first{
+    background: url('https://miro.medium.com/max/875/1*IbL7DeC2lA0nslNKu5Ojeg.jpeg') ;
+    opacity: 1;
+}
+#second{
+    background: url('https://cdn.elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg');
+    opacity: 1;
+}
+
+.boxes p{
+    text-align: justify;
+    text-shadow: white;
+}
+
+/* algorithm section */
+#Algorithms{
+    /* display: ; */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+}
+.AlgoCont{
+    display: flex;
+    
+    padding: 1%;
+    margin: 1%;
+    /* align-items: center;
+    justify-content: center; */
+}
+#algo-heading{
+    margin: 2%;
+    text-align: center;
+    font-size: 3rem;
+}
+.algos{
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(247, 241, 241);
+    font-family: comic sans ms, Georgia, Times, 'Times New Roman', serif, Cambria, Cochin;
+    /* color: white; */
+    box-shadow: 8px 8px 30px -4px black;
+    /* display:flex; */
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex: 30%;
+}
+
+.algos a{
+    color:blue;
+    text-align:right;
+    text-decoration: underline;
+}
+
+.algos h2{
+    text-align: center;
+}

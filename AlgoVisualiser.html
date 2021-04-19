@@ -1,0 +1,440 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Algo Visualiser</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
+        <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+        <!-- Slider -->
+        <link rel="stylesheet" href="assets/styles/vendor/slick.css">
+        <!-- Lightbox -->
+        <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css">
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="assets/styles/vendor/animate.css">
+
+
+        <!-- Definity CSS -->
+        <link rel="stylesheet" href="assets/styles/main.css">
+        <link rel="stylesheet" href="assets/styles/responsive.css">
+
+        <!-- JS -->
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar">
+        
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <!-- ========== Preloader ========== -->
+
+        <div class="preloader">
+          <img src="./assets/images/loader.svg" alt="Loading...">
+        </div>
+
+
+
+
+        <!-- ========== Navigation ========== -->
+
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-trans  navbar-fw" role="navigation">
+          <a class="navbar-brand" href="#"><h1 style="font-size: 1.5em;
+            letter-spacing: 5px;
+            color: white;
+            margin: auto;">Algo Visualiser</h1></a>
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Logo -->
+            
+          </div>
+
+          <!-- Navbar Links -->
+          <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
+            
+            <ul class="nav navbar-nav">
+              <li><a href="./AlgoVisualiser.html">Home</a></li>
+                <li><a href="./BinaryTreeVisualiser/binary-search-tree.html">Tree Traversals</a></li>
+                <li><a href="./Dijkstra-solver/index.html">Dijkstra</a></li>
+                <li><a href="./graph-visualization/index.html">Graph Traversals</a></li>
+                <li><a href="./visualization/BFS.html">BFS</a></li>
+                <li><a href="./visualization/DFS.html">DFS</a></li>
+                <li><a href="./visualization/Prim.html">Prim's</a></li>
+                <li><a href="./visualization/Kruskal.html">Kruskal</a></li>
+                <li><a href="./Visualizer.html">Sorting</a></li>
+            </ul><!-- / .nav .navbar-nav -->              
+          </div><!--/.navbar-collapse -->
+        </nav><!-- / .navbar -->
+
+
+
+        <!-- ========== Hero Cover ========== -->
+
+        <div id="home" class="agency2-hero">
+          <div class="bg-overlay" style = "background-color: #555;">
+            
+            <div id="large-header" class="large-header">
+              <canvas id="demo-canvas" class="demo-canvas"></canvas>
+
+              <!-- Hero Content -->
+              <div class="hero-content-wrapper">
+                <div class="hero-content">
+                  
+                  
+                  <h1 class="hero-lead" style="
+                      font-weight: 800;
+                      font-size: 4em;
+                  ">Algorithm Visualiser</h1>
+                  <br/>
+                  <h5 class="h-alt hero-secondary" style="font-weight: 800;color:rgb(190, 190, 190)">An application where you can </h5>
+                  <h5 class="h-alt hero-secondary" style="font-weight: 800; color:rgb(190, 190, 190)">comprehend every operation </h5>
+                  <h5 class="h-alt hero-secondary" style="font-weight: 800; color:rgb(190, 190, 190)">taking place in any algorithm. </h5>
+                  
+                  <a href="#about" class="btn btn-light">Learn More</a>
+                  
+                  <!-- Scroller -->
+                  <a href="#about" class="scroller">
+                    <span class="scroller-text">scroll down</span>
+                    <span class="linea-basic-magic-mouse"></span>
+                  </a>
+
+                </div><!-- / .hero-content -->
+              </div><!-- / .hero-content-wrapper -->
+
+            </div><!-- / #large-header -->
+
+          </div><!-- / .bg-overlay -->
+        </div><!-- / #home -->
+
+
+
+        <!-- ========== About - Section ========== -->
+
+        <section id="about" class="container">
+          <div class="row section">
+            
+            <header class="sec-heading">
+              <h2>About the Visualiser</h2>
+              <span class="subheading">An application where you can comprehend every operation taking place in any sorting algorithm.</span>
+            </header>
+
+            <div class="col-md-4">
+              <blockquote>In order to understand the algorithm, however simple it may be, we often employ some kind of visualization (drawing on paper, image, video etc.). </blockquote>
+            </div>
+            <div class="col-md-4">
+              <p>Anyone who has studied algorithms knows how helpful a visualizer can be to understand how an algorithm works. By seeing how the algorithm works step-by-step we can often understand it with just a glance, while going through the pseudo code and other written explanations and trying to imagine what is going on, can be time consuming, confusing and frustration.</p>
+            </div> 
+            <div class="col-md-4">
+              <p> There is a wide variety of algorithm visualizers for different algorithms and representations. Use this application to better understand how every sorting algorithm works. Brief explanation of the sorting algorithms shown in the Visualizer</p>
+            </div>
+          </div><!-- / .row -->
+          <div class="row ws-m">
+            <div class="col-md-12 text-center">
+              <a href="#" class="btn-text">Explore</a>
+            </div>
+          </div>
+        </section><!-- / .container -->
+
+        <!-- ========== Circle Counters Minimal ========== -->
+
+        <div id="skillsCirclesMin" class="circles-counters-dark-bg">
+          <div class="container">
+            <div id="counters-min" class="row count-wrapper">
+              
+              <!-- Item 1 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-gear"></span></div>
+                <span class="circle-text">Great Learning Tool</span>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-info"></span></div>
+                <span class="circle-text">Algorithm Description</span>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-arrows-stretch-diagonal4"></span></div>
+                <span class="circle-text">Complex Algorithms</span>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-star"></span></div>
+                <span class="circle-text">Easy to use</span>
+              </div>
+
+            </div><!-- / .row -->
+          </div><!-- / .container -->
+        </div><!-- / .circles-counters -->
+
+
+        <!-- ========== Portfolio Full Width - 4 Columns ========== -->
+
+        <section class="container-fluid portfolio-layout portfolio-columns-fw" style="margin-bottom: 10%;">
+          <div class="row">
+            <header class="sec-heading">
+              <h2>Algorithms in our project</h2>
+              <span class="subheading">Have an enriching learning experience</span>
+            </header>
+          </div><!-- / .row -->
+          
+          <!-- Filters -->
+          <div class="row">
+            <ul id="pfolio-filters" class="portfolio-filters">
+              <li class="active"><a href="#" data-filter="*">All</a></li>
+              <li><a href="#" data-filter=".webdesing">Sorting</a></li>
+              <li><a href="#" data-filter=".print">Trees</a></li>
+              <li><a href="#" data-filter=".photo">Graphs</a></li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div id="pfolio">
+              
+              <div class="col-md-4 portfolio-item webdesing">
+                <div class="p-wrapper hover-default">
+                  <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                  <div class="p-hover">
+                    <div class="p-content">
+                      <h4>Bubble Sort</h4>
+                      <h6 class="subheading">Sub heading for the project</h6>
+                    </div>
+                  </div>
+                  <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                </div>
+                </div>
+                <div class="col-md-4 portfolio-item webdesing">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Insertion Sort</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item webdesing">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Selection Sort</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item webdesing">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Merge Sort</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item webdesing">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Quick Sort</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item webdesing">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Heap Sort</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item print">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Inorder Traversal</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item print">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Preorder Traversal</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item print">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Postorder Traversal</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item print photo">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Depth First Search(DFS)</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item print photo">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Breadth First Search(BFS)</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item photo">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Dijkstra Algorithm</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item photo">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Kruskal Algorithm</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-item photo">
+                  <div class="p-wrapper hover-default">
+                    <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
+                    <div class="p-hover">
+                      <div class="p-content">
+                        <h4>Prim's Algorithm</h4>
+                        <h6 class="subheading">Sub heading for the project</h6>
+                      </div>
+                    </div>
+                    <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
+                  </div>
+                </div>
+                
+            </div><!-- / #pfolio -->
+          </div><!-- / .row -->
+        </section><!-- / .portfolio-columns-fw -->
+  
+        <!-- ========== Footer Contact ========== -->
+        
+        <footer id="contact" class="footer-contact">
+          <!-- Copyright -->
+          <div class="copyright">
+            <div class="container">
+              <div class="row">
+                
+                <div class="col-md-6">
+                  <small>&copy; 2021 Algo Visualiser by </small>
+                  <br/>
+                  <small>Navya Singla</small>
+                  <br/>
+                  <small>Neha Goyal</small>
+                </div>
+
+                <div class="col-md-6">
+                  <small><a href="#page-top" class="pull-right to-the-top">To the top<i class="fa fa-angle-up"></i></a></small>
+                </div>
+
+              </div><!-- / .row -->
+            </div><!-- / .container -->
+          </div><!-- / .copyright -->
+        </footer><!-- / .footer-contact -->
+
+    
+
+        <!-- ========== Scripts ========== -->
+
+        <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+        <script src="assets/js/vendor/google-fonts.js"></script>
+        <script src="assets/js/vendor/jquery.easing.js"></script>
+        <script src="assets/js/vendor/jquery.waypoints.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
+        <script src="assets/js/vendor/smoothscroll.js"></script>
+        <script src="assets/js/vendor/jquery.localScroll.min.js"></script>
+        <script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
+        <script src="assets/js/vendor/jquery.stellar.min.js"></script>
+        <script src="assets/js/vendor/jquery.parallax.js"></script>
+        <script src="assets/js/vendor/slick.min.js"></script>
+        <script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
+        <script src="assets/js/vendor/countup.min.js"></script>
+        <script src="assets/js/vendor/isotope.min.js"></script>
+        <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/vendor/wow.min.js"></script>
+        <script src="assets/js/vendor/jquery.ajaxchimp.js"></script>
+        <script src="assets/js/vendor/animDots.js"></script>
+
+        <!-- Google Maps -->
+        <script src="assets/js/gmap.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOcd7o0W0r846FC_GoHSK56xeAvP8fV4s"></script>
+
+        <!-- Definity JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
